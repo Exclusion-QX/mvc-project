@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="93d757d6-029e-4f6a-974e-06e491452f20" name="Default Changelist" comment="" />
+    <list default="true" id="93d757d6-029e-4f6a-974e-06e491452f20" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Db.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/db_params.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/Article.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/News.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/Product.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/news/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Router.php" beforeDir="false" afterPath="$PROJECT_DIR$/components/Router.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/NewsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/NewsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,8 +27,12 @@
       <executable />
     </execution>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1Y7gfPaqsZ80TC5p95MytdbEc1z" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
@@ -49,10 +67,29 @@
       <workItem from="1582300912336" duration="718000" />
       <workItem from="1582302768876" duration="1619000" />
       <workItem from="1582306009067" duration="882000" />
+      <workItem from="1582362703247" duration="1666000" />
+      <workItem from="1582364417984" duration="1781000" />
+      <workItem from="1582366250596" duration="1637000" />
+      <workItem from="1582368074931" duration="1945000" />
+      <workItem from="1582370291344" duration="1794000" />
+      <workItem from="1582372171636" duration="728000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
