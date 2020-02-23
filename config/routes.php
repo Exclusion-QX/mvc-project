@@ -2,9 +2,12 @@
 
     return array(
 
-//        'news/([a-z]+)/([0-9]+)' => 'news/view/$1/$2',
+        'product/([0-9]+)' => 'product/view/$1', // actionView in ProductController
 
-        'news/([0-9]+)' => 'news/view/$1', // actionView в NewController
-        'news' => 'news/index', //actionIndex в NewsController
-//        'products' => 'product/list', //actionList в ProductController
+        'catalog' => 'catalog/index', // actionIndex in CatalogController
+        'category/([0-9]+)' => 'catalog/category/$1', // actionCategory in CatalogController
+
+        '' => 'site/index', // actionIndex in SiteController
+
+
     );
