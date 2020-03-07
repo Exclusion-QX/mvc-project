@@ -2,29 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="93d757d6-029e-4f6a-974e-06e491452f20" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/components/Autoload.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Cart.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/CabinetController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/CartController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/UserController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/User.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/cabinet/edit.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/cabinet/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/cart/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/site/contact.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/user/register.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/Order.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/cart/checkout.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Cart.php" beforeDir="false" afterPath="$PROJECT_DIR$/models/Cart.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/CatalogController.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/CatalogController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/NewsController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/ProductController.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/ProductController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/SiteController.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/SiteController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/Product.php" beforeDir="false" afterPath="$PROJECT_DIR$/models/Product.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/catalog/category.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/catalog/category.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/catalog/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/catalog/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/layouts/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/layouts/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/layouts/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/layouts/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/CartController.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/CartController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/cart/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/cart/index.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,15 +29,18 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/models" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\OSPanel\OSPanel\domains\nice.loc\models" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\OSPanel\OSPanel\domains\nice.loc\models" />
       <recent name="C:\OSPanel\OSPanel\domains\nice.loc\views\cart" />
       <recent name="C:\OSPanel\OSPanel\domains\nice.loc\components" />
       <recent name="C:\OSPanel\OSPanel\domains\nice.loc\controllers" />
       <recent name="C:\OSPanel\OSPanel\domains\nice.loc\views\site" />
-      <recent name="C:\OSPanel\OSPanel\domains\nice.loc\views" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -112,7 +100,11 @@
       <workItem from="1583316392309" duration="1569000" />
       <workItem from="1583318822279" duration="1789000" />
       <workItem from="1583320707978" duration="829000" />
-      <workItem from="1583428909347" duration="884000" />
+      <workItem from="1583428909347" duration="929000" />
+      <workItem from="1583430745118" duration="432000" />
+      <workItem from="1583572035320" duration="1722000" />
+      <workItem from="1583573887923" duration="1782000" />
+      <workItem from="1583575738560" duration="1785000" />
     </task>
     <servers />
   </component>

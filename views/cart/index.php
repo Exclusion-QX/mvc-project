@@ -46,15 +46,24 @@
                                     </td>
                                     <td><?php echo $product['price'];?></td>
                                     <td><?php echo $productsInCart[$product['id']];?></td>
-                                    <td>&#10006;</td>
+                                    <td>
+                                        <a href="/cart/delete/<?php echo $product['id'];?>">
+                                            <i class="fa fa-times"></i>
+                                        </a>
+                                    </td>
                                 </tr>
                             <?php endforeach; ?>
                                 <tr>
-                                    <td colspan="3">Общая стоимость:</td>
+                                    <td colspan="2">Общая стоимость:</td>
                                     <td><?php echo $totalPrice;?></td>
+                                    <td>Общее количество: <?php echo $totalQuantity;?></td>
+
                                 </tr>
                             
                         </table>
+
+                        <a href="/cart/checkout"><i class="fa fa-shopping-cart"></i> Оформить заказ</a>
+
                     <?php else: ?>
                         <p>Корзина пуста</p>
                     <?php endif; ?>
